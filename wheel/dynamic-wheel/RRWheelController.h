@@ -36,7 +36,7 @@
 @property (nonatomic, assign) CGFloat fontSize;
 @property (nonatomic, strong) UIColor* selectedFontColor;
 @property (nonatomic, strong) UIColor* wheelBackgroundColor;
-@property (nonatomic, weak) id<TPWheelDelegate> delegate;
+@property (nonatomic, weak) id<RRWheelDelegate> delegate;
 @end
 
 @protocol RRWheelDelegate <NSObject>

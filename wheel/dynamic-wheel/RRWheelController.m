@@ -35,7 +35,7 @@
 }
 @end
 
-@implementation TPWheelController
+@implementation RRWheelController
 @synthesize wheelName;
 @synthesize rotation;
 @synthesize words;

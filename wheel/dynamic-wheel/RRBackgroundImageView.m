@@ -6,7 +6,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.image = [self imageNameInBundle:[NSObject imageNameForCurrentScreenSize:@"imgMatrix_ip5_tile1"] withExtension:@"png"];
+        self.image = [UIImage imageNamed:@"imgMatrix_ip5_tile1"];
         self.userInteractionEnabled = YES;
     }
     return self;

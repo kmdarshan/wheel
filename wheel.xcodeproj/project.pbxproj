@@ -13,7 +13,11 @@
 		FF188C241C8524B700BA0CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF188C221C8524B700BA0CA3 /* Main.storyboard */; };
 		FF188C261C8524B700BA0CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF188C251C8524B700BA0CA3 /* Assets.xcassets */; };
 		FF188C291C8524B700BA0CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF188C271C8524B700BA0CA3 /* LaunchScreen.storyboard */; };
-		FF188C331C85286400BA0CA3 /* dynamic-wheel in Resources */ = {isa = PBXBuildFile; fileRef = FF188C321C85286400BA0CA3 /* dynamic-wheel */; };
+		FF188C3D1C8530EB00BA0CA3 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = FF188C341C8530EB00BA0CA3 /* assets */; };
+		FF188C3E1C8530EB00BA0CA3 /* RRBackgroundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF188C361C8530EB00BA0CA3 /* RRBackgroundImageView.m */; };
+		FF188C3F1C8530EB00BA0CA3 /* RRCurvedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF188C381C8530EB00BA0CA3 /* RRCurvedTextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF188C401C8530EB00BA0CA3 /* RRWheelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF188C3A1C8530EB00BA0CA3 /* RRWheelController.m */; };
+		FF188C411C8530EB00BA0CA3 /* RRWord.m in Sources */ = {isa = PBXBuildFile; fileRef = FF188C3C1C8530EB00BA0CA3 /* RRWord.m */; settings = {COMPILER_FLAGS = "-fno-obj-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +31,15 @@
 		FF188C251C8524B700BA0CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF188C281C8524B700BA0CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF188C2A1C8524B700BA0CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF188C321C85286400BA0CA3 /* dynamic-wheel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "dynamic-wheel"; sourceTree = "<group>"; };
+		FF188C341C8530EB00BA0CA3 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "dynamic-wheel/assets"; sourceTree = "<group>"; };
+		FF188C351C8530EB00BA0CA3 /* RRBackgroundImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRBackgroundImageView.h; path = "dynamic-wheel/RRBackgroundImageView.h"; sourceTree = "<group>"; };
+		FF188C361C8530EB00BA0CA3 /* RRBackgroundImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRBackgroundImageView.m; path = "dynamic-wheel/RRBackgroundImageView.m"; sourceTree = "<group>"; };
+		FF188C371C8530EB00BA0CA3 /* RRCurvedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRCurvedTextView.h; path = "dynamic-wheel/RRCurvedTextView.h"; sourceTree = "<group>"; };
+		FF188C381C8530EB00BA0CA3 /* RRCurvedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRCurvedTextView.m; path = "dynamic-wheel/RRCurvedTextView.m"; sourceTree = "<group>"; };
+		FF188C391C8530EB00BA0CA3 /* RRWheelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRWheelController.h; path = "dynamic-wheel/RRWheelController.h"; sourceTree = "<group>"; };
+		FF188C3A1C8530EB00BA0CA3 /* RRWheelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRWheelController.m; path = "dynamic-wheel/RRWheelController.m"; sourceTree = "<group>"; };
+		FF188C3B1C8530EB00BA0CA3 /* RRWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRWord.h; path = "dynamic-wheel/RRWord.h"; sourceTree = "<group>"; };
+		FF188C3C1C8530EB00BA0CA3 /* RRWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRWord.m; path = "dynamic-wheel/RRWord.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +72,15 @@
 		FF188C181C8524B600BA0CA3 /* wheel */ = {
 			isa = PBXGroup;
 			children = (
-				FF188C321C85286400BA0CA3 /* dynamic-wheel */,
+				FF188C341C8530EB00BA0CA3 /* assets */,
+				FF188C351C8530EB00BA0CA3 /* RRBackgroundImageView.h */,
+				FF188C361C8530EB00BA0CA3 /* RRBackgroundImageView.m */,
+				FF188C371C8530EB00BA0CA3 /* RRCurvedTextView.h */,
+				FF188C381C8530EB00BA0CA3 /* RRCurvedTextView.m */,
+				FF188C391C8530EB00BA0CA3 /* RRWheelController.h */,
+				FF188C3A1C8530EB00BA0CA3 /* RRWheelController.m */,
+				FF188C3B1C8530EB00BA0CA3 /* RRWord.h */,
+				FF188C3C1C8530EB00BA0CA3 /* RRWord.m */,
 				FF188C1C1C8524B700BA0CA3 /* AppDelegate.h */,
 				FF188C1D1C8524B700BA0CA3 /* AppDelegate.m */,
 				FF188C1F1C8524B700BA0CA3 /* ViewController.h */,
@@ -139,8 +159,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF188C331C85286400BA0CA3 /* dynamic-wheel in Resources */,
 				FF188C291C8524B700BA0CA3 /* LaunchScreen.storyboard in Resources */,
+				FF188C3D1C8530EB00BA0CA3 /* assets in Resources */,
 				FF188C261C8524B700BA0CA3 /* Assets.xcassets in Resources */,
 				FF188C241C8524B700BA0CA3 /* Main.storyboard in Resources */,
 			);
@@ -153,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF188C3E1C8530EB00BA0CA3 /* RRBackgroundImageView.m in Sources */,
 				FF188C211C8524B700BA0CA3 /* ViewController.m in Sources */,
 				FF188C1E1C8524B700BA0CA3 /* AppDelegate.m in Sources */,
+				FF188C401C8530EB00BA0CA3 /* RRWheelController.m in Sources */,
+				FF188C411C8530EB00BA0CA3 /* RRWord.m in Sources */,
 				FF188C1B1C8524B600BA0CA3 /* main.m in Sources */,
+				FF188C3F1C8530EB00BA0CA3 /* RRCurvedTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -254,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
